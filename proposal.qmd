@@ -1,0 +1,32 @@
+# [Project Title: Scenic Navigation System]{style="color: #2E86C1;"}
+
+---
+
+## Project vision:
+Enable city residents and pedestrians to navigate through urban areas that prioritizes scenic locations, calmness, and well-being.
+
+## Project objectives:
+- Develop a navigation model that optimizes routes based on scenic quality, activity levels, and user preferences.
+- Integrate geospatial data including road networks, construction activity, scenic locations and noise level data to support route generation.
+- Develop a map-based web application to display the generated routes for visualization.
+
+## Problem Overview:
+Tourists navigating unfamiliar cities typically use navigation systems that show them the shortest route to their destination. However, these often lead them through crowded, noisy, or stressful areas, negatively impacting their travel experience.
+
+There is currently a lack of navigation systems that optimize for environmental quality such as noise levels, pedestrian density, and scenic value rather than purely efficiency. As a result, users cannot easily discover calm, aesthetically pleasing routes tailored to their preferences.
+
+## Proposed approach / solution:
+
+Develop a navigation system that uses city geospatial data, scenic locations, construction sites, and noise levels to recommend calming routes, supported by a web application that visualizes the city and generated routes through an interactive map interface.
+
+---
+
+**Data sources**
+
+[Openstreetmap](http://openstreetmap.org) - for data on roads, points of interest, vegetation, bodies of water, parks, etc.
+
+[Constructionmap.info](http://Constructionmap.info) - for data of construction sites
+
+:::{.callout-note}
+Target city - London
+:::
